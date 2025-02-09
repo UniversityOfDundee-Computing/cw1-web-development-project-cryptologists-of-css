@@ -1,4 +1,5 @@
 Meeting 1 Notes:
+
 • This first meeting took place on Thursday 6th of January, after our Web Application Development Lab at 12:00pm. 
 
 • This first formal meeting was a brainstorming session and we made an update to our roles. 

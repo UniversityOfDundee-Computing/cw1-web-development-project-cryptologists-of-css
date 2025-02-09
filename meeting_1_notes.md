@@ -1,5 +1,6 @@
 Meeting 1 Notes:
 • This first meeting took place on Thursday 6th of January, after our Web Application Development Lab at 12:00pm. 
+
 • This first formal meeting was a brainstorming session and we made an update to our roles. 
 • Based on the marking criteria, we decided it would make more sense to have someone link all the pages together via a nav bar and that we would all handle an individual page where we would all do CSS and HTML. 
 

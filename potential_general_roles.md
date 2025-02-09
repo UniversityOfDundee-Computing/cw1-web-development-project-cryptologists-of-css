@@ -1,4 +1,4 @@
-Potential Roles
+Potential Roles - discarded (changes have been made and updated in meeting 1 discussion).
 
 Note: according to Femi, everyone must take on some form of a technical role (as in, do some of the code and that will be evidenced by the commits). 
 

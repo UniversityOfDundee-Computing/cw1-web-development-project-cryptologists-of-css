@@ -18,4 +18,4 @@ To consider for the next meeting:
 
 • We have also not decided on specific schemes like particular colour schemes to keep a global style. 
 
-Next meeting to take place: 1:30pm to 2:00pm at the QMB Lab 2. 
+Next meeting to take place: 1:30pm to 2:00pm at the QMB Lab 2 on Wednesday 12th February 2025.

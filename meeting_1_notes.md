@@ -12,7 +12,9 @@ Meeting 1 Notes:
 • We also looked through the examples and the marking criteria. We couldn’t find a good CSS framework that was similar to use for GTA: Vice City. 
 
 To consider for the next meeting: 
+
 • For the next meeting, we have decided that we should meet at Lab 2 (provided there are no classes taking place there) to define the details of our project and roles. 
+
 • We have also not decided on specific schemes like particular colour schemes to keep a global style. 
 
 Next meeting to take place: 1:30pm to 2:00pm at the QMB Lab 2. 

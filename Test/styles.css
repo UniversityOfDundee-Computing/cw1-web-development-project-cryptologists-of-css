@@ -12,9 +12,9 @@ body {
     margin: 0;
     padding: 15px;
     position: relative;
-    overflow: hidden;
-  }
-  
+    /* Remove or comment out overflow: hidden */
+    /* overflow: hidden; */
+}
 .container{
     padding: 70px;
   }
@@ -24,7 +24,7 @@ p{
   font-size: 18px; /* Example: Set font size */
   line-height: 1.5; /* Example: Adjust line height */
   color: #ffffff; /* Example: Set text color */
-  padding: 80px 0px 0px 50px;
+  padding: 30px 0px 0px 50px;
   text-shadow: 0 0 5px #fd95e0, 0 0 5px #fd95e0;
 }
 a{
@@ -55,6 +55,7 @@ a{
 .nav-link:hover {
     background-color: #198345;
     border-radius: 3px;
+    transform: scale(1.1);
 }
 
 .navbar-brand {

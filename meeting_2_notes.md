@@ -10,7 +10,8 @@ We discussed the need to do GitHub Reviews.
 
 • We will document and suggest improvements to others' works through GitHub. 
 
-Design
+
+Design:
 
 • In terms of the design, we discussed that we might want to use  bold colours for the header (details not completely thought out yet and can be discussed in the Lab or Whatsapp). 
 

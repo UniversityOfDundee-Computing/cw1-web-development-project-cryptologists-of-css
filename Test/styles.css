@@ -88,3 +88,21 @@ a{
     pointer-events: none;
     z-index: 9999;
   }
+
+  /* Heading fonts */
+h1, h2 {
+    font-family: 'Pricedown Bl', sans-serif;
+    color: #ffffff;
+    text-shadow: 0 0 10px #fd95e0, 0 0 10px #fd95e0; /* Glow Effect */
+ }
+ 
+ h1 {
+    font-size: 3em; 
+    margin-bottom: 20px; 
+ }
+ 
+ h2 {
+    font-size: 2em; 
+    margin-bottom: 15px; /* Space below the heading */
+ }
+ 

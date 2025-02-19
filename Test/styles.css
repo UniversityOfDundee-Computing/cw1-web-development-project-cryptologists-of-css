@@ -105,4 +105,16 @@ h1, h2 {
     font-size: 2em; 
     margin-bottom: 15px; /* Space below the heading */
  }
- 
+
+ /* In text references - for the <sup> tags */
+ sup {
+    font-size: 0.8em; /* this makes the in-text references slightly smaller in size */
+    vertical-align: super; /* this makes those in text references slightly higher */
+    color: #1c76fe;
+}
+
+sup:hover {
+    text-decoration: underline;
+    text-decoration-color: #fd95e0;
+    cursor: pointer; 
+}

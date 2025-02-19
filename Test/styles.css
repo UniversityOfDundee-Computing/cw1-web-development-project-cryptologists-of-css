@@ -88,24 +88,48 @@ a{
     z-index: 9999;
   }
 
-  h2{
+/* Heading fonts */
+h1, h2 {
+    font-family: 'Pricedown Bl', sans-serif;
     color: #ffffff;
-  text-shadow: 0 0 5px #fd95e0, 0 0 5px #fd95e0;
-  padding: 10px 0px 0px 0px;
-  text-decoration: underline;
-  font-family: 'Pricedown Bl', sans-serif;
-  }
+}
 
-  img.float-left {
+h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-shadow: 0 0 10px #fd95e0, 0 0 10px #fd95e0; 
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    text-shadow: 0 0 5px #fd95e0, 0 0 5px #fd95e0; 
+    padding: 10px 0 0 0; 
+    text-decoration: underline;
+}
+
+
+sup {
+    font-size: 0.8em;
+    vertical-align: super;
+    color: #1c76fe;
+}
+
+sup:hover {
+    text-decoration: underline;
+    text-decoration-color: #fd95e0;
+    cursor: pointer;
+}
+
+
+img.float-left {
     float: left;
     margin-right: 20px;
-
-    max-width: 100%; /* ensures responsiveness */
+    max-width: 100%;
 }
 
 img.float-right {
     float: right;
     margin-left: 50px;
-
     max-width: 100%;
 }

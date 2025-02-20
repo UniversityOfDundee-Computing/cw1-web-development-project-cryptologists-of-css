@@ -83,28 +83,33 @@ a {
     pointer-events: none;
     z-index: 9999;
 }
-
-h2 {
+/* Heading fonts */
+h1, h2 {
+    font-family: 'Pricedown Bl', sans-serif;
     color: #ffffff;
+}
+h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-shadow: 0 0 10px #fd95e0, 0 0 10px #fd95e0;
+}
+h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
     text-shadow: 0 0 5px #fd95e0, 0 0 5px #fd95e0;
     padding: 10px 0 0 0;
     text-decoration: underline;
-    font-family: 'Pricedown Bl', sans-serif;
 }
-
-
 .image-container {
     position: relative;
     float: right;
     width: 14%;
     margin-left: 20px;
 }
-
 .image-container img {
     width: 100%;
     display: block;
 }
-
 .hover-table {
     display: none;
     position: absolute;
@@ -115,33 +120,36 @@ h2 {
     border: 1px solid #ccc;
     box-shadow: 0 0 5px #fd95e0;
     color: #ffffff;
-    /*padding: 10px;*/
-    z-index: 9000;  
+    z-index: 9000;
 }
-
 .image-container:hover .hover-table {
     display: block;
 }
-
-
 .hover-table table {
     width: 100%;
     border-collapse: collapse;
     margin: 0;
 }
-
 .hover-table th,
 .hover-table td {
     padding-left: 50px;
     padding-right: 50px;
     text-align: justify;
     border: 1px solid hwb(0 100% 0% / 0.422);
-    text-shadow: 0 0 5px #fd95e0 , 0 0 5px #fd95e0;
+    text-shadow: 0 0 5px #fd95e0, 0 0 5px #fd95e0;
 }
-
 .hover-table th {
-
     font-family: 'Pricedown Bl', sans-serif;
+}
+sup {
+    font-size: 0.8em;
+    vertical-align: super;
+    color: #1c76fe;
+}
+sup:hover {
+    text-decoration: underline;
+    text-decoration-color: #fd95e0;
+    cursor: pointer;
 }
 
 

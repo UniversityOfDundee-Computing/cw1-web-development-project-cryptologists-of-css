@@ -12,6 +12,11 @@ body {
     position: relative;
 }
 
+.bg-image {
+    height:100vh; 
+    position: relative
+}
+
 .container {
     padding: 70px;
 }
@@ -86,12 +91,12 @@ a {
 /* Heading fonts */
 h1, h2 {
     font-family: 'Pricedown Bl', sans-serif;
-    color: #ffffff;
+    color: #fd95e0;
 }
 h1 {
     font-size: 3em;
     margin-bottom: 20px;
-    text-shadow: 0 0 10px #fd95e0, 0 0 10px #fd95e0;
+    text-shadow: 0 0 10px #000, 0 0 10px #000;
 }
 h2 {
     font-size: 2em;
@@ -99,6 +104,7 @@ h2 {
     text-shadow: 0 0 5px #fd95e0, 0 0 5px #fd95e0;
     padding: 10px 0 0 0;
     text-decoration: underline;
+    text-shadow: 0 0 10px #000, 0 0 10px #000;
 }
 .image-container {
     position: relative;

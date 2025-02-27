@@ -84,7 +84,7 @@ a {
     z-index: 9999;
 }
 /* Heading fonts */
-h1, h2 {
+h1, h2, h3 {
     font-family: 'Pricedown Bl', sans-serif;
     color: #ffffff;
 }
@@ -99,6 +99,11 @@ h2 {
     text-shadow: 0 0 5px #fd95e0, 0 0 5px #fd95e0;
     padding: 10px 0 0 0;
     text-decoration: underline;
+}
+h3 {
+    font-size: 1.5em;
+    text-shadow: 0 0 5px #fd95e0, 0 0 5px #fd95e0;
+    padding: 10px 0 0 0;
 }
 .image-container {
     position: relative;

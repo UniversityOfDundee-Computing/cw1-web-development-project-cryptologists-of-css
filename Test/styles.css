@@ -337,3 +337,7 @@ blockquote:hover {
     border-left-color: #fff;
     transition: 0.3s;
 }
+
+body {
+    cursor: url('cursor.cur'), auto;
+}

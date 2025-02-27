@@ -20,14 +20,16 @@ p {
     font-family: sans-serif;
     font-size: 18px;
     line-height: 1.5;
-    color: #ffffff;
+    color:#ffffff;
     padding: 30px 0 0 0;
     text-shadow: 0 0 5px #fd95e0, 0 0 5px #fd95e0;
 }
 
 a {
     color: #ffffff;
+    text-decoration: none;
 }
+
 
 /* Button and navigation fonts */
 .btn, .navbar-brand, .nav-link {
@@ -86,12 +88,12 @@ a {
 /* Heading fonts */
 h1, h2 {
     font-family: 'Pricedown Bl', sans-serif;
-    color: #ffffff;
+    color: #fd95e0;
 }
 h1 {
     font-size: 3em;
     margin-bottom: 20px;
-    text-shadow: 0 0 10px #fd95e0, 0 0 10px #fd95e0;
+    text-shadow: 0 0 10px #000000, 0 0 10px #000000;
 }
 h2 {
     font-size: 2em;
@@ -166,12 +168,16 @@ img.float-right {
 }
 
 /* luyen */
-.development-link {
+.selected-page {
     /* background-color: red; */
     /* border: 2px solid white; */
     /* padding: 5px 10px; */
-    /* border-radius: 3px; */
-    transform: scaleY(3);
+    /* border-radius: 30px; */
+    /* transform: scale(1.2); */
+
+    /* background-color: #19834565; */
+    border-radius: 3px;
+    /* transform: scale(1.1); */
 }
 
 .image-container-dev {
@@ -180,9 +186,9 @@ img.float-right {
     width: 12%;
     margin-left: 20px;
     margin-right: 0;
-    margin-top: 0;
+    margin-top: 20px;
     margin-bottom: 0;
-    padding-top: 0;
+    padding-top: 20px;
     padding-bottom: 0;
     padding-right: 0;
 }
@@ -208,10 +214,36 @@ img.float-right {
     text-align: justify;
 }
 
-a {
+/* a {
     text-decoration: none;
-}
+} */
 
 p {
     text-align: justify;
+}
+
+#footnote {
+    font-size: 1em;
+    color: #ffffff;
+    text-shadow: 0 0 10px #fd95e0, 0 0 10px #fd95e0;
+}
+
+#footnote:a {
+    text-decoration: underline;
+    text-decoration-color: #000;
+    cursor: pointer;
+}
+
+a:hover {
+    color: #fd95e0;
+    text-shadow: 0 0 5px #fd95e0, 0 0 5px #fd95e0;
+    /* text-decoration: underline; */
+}
+
+.strong-text {
+    text-decoration: underline;
+}
+
+#footnote-15-return {
+    scroll-margin-top: 50vh;
 }

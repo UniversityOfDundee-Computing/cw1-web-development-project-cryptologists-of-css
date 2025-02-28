@@ -39,7 +39,7 @@ p {
     font-size: 18px;
     line-height: 1.5;
     color: #ffffff;
-    padding: 30px 0 0 0;
+    padding: 10px 0 0 0;
     text-shadow: 0 0 5px #000000, 0 0 10px #fd95e0, -1px 1px 2px #fd95e0,  -1.5px 1px 2px #fd95e0;
 }
 
@@ -131,9 +131,8 @@ img.float-right {
 /* Image with hover table */
 .image-container {
     position: relative;
-    float: right;
-    width: 14%;
-    margin-left: 20px;
+    float: left;
+    margin: 20px;
 }
 
 .image-container img {
@@ -145,13 +144,13 @@ img.float-right {
     display: none;
     position: absolute;
     top: 0;
-    right: calc(100% + 10px);
-    left: auto;
-    background-color: hsla(317, 96%, 79%, 0.826);
+    left: calc(100% + 10px);
+    right: auto;
+    background-color: hsla(315, 100%, 2%, 0.9);
     border: 1px solid #ccc;
     box-shadow: 0 0 5px #fd95e0;
     color: #ffffff;
-    z-index: 9000;
+    z-index: 1000000;
 }
 
 .image-container:hover .hover-table {
@@ -159,22 +158,29 @@ img.float-right {
 }
 
 .hover-table table {
-    width: 100%;
+    width: 100%; 
     border-collapse: collapse;
     margin: 0;
 }
 
 .hover-table th,
 .hover-table td {
-    padding-left: 50px;
-    padding-right: 50px;
-    text-align: justify;
+    padding-left: 15px;
+    padding-right: 150px;
+    text-align: left;
     border: 1px solid hwb(0 100% 0% / 0.422);
-    text-shadow: 0 0 5px #fd95e0, 0 0 5px #fd95e0;
+    text-shadow: 0 0 5px #000000, 0 0 10px #fd95e0, -5px 5px 0 #000,  -5px 5px 0 #fd95e0;
+    font-size: 1.3em;
 }
 
 .hover-table th {
     font-family: 'Pricedown Bl', sans-serif;
+    color: #fd95e0;
+}
+
+.hover-table td {
+    font-family: 'rage italic', sans-serif;
+    color: #fd95e0;
 }
 
 /* Superscript */

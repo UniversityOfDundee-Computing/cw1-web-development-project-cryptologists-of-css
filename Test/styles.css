@@ -9,13 +9,8 @@ body {
     background-position: top left;
     margin: 60px;
     padding: 15px;
-    position: relative;
-}
-
-.bg-image {
-    height:100vh; 
-    position: relative
-}
+    position: relative; 
+}  
 
 .container {
     padding: 70px;
@@ -98,7 +93,7 @@ h1 {
     margin-bottom: 20px;
     text-shadow: 0 0 10px #000, 0 0 10px #000;
 }
-h2 {
+h2  {
     font-size: 2em;
     margin-bottom: 15px;
     text-shadow: 0 0 5px #fd95e0, 0 0 5px #fd95e0;
@@ -346,4 +341,111 @@ blockquote:hover {
 
 body {
     cursor: url('cursor.cur'), auto;
+}
+/* iain additions */
+
+.bg-image {
+    height:100vh; 
+    background-position:center;
+    background-attachment:fixed;
+    display:flex;
+    background-repeat:repeat-x;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-size:100% auto;
+}
+
+.img1 {
+    background-image: url('https://c.wallhere.com/photos/46/77/AI_art_city_illustration_Grand_Theft_Auto_Vice_City_skyline_palm_trees_car_walking-2229762.jpg!d');   
+}
+
+.img3 {
+    background-image: url('city.jpg');
+}
+
+.title{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+.gameplay {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.plot {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.video { 
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-width: 5px;
+    border-radius: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.about_title {
+    
+    background-color: #fd95e0d9;
+    height: 125px;
+    max-width: 100%;
+    text-align: center;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    border-color: white;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 50px 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;   
+    margin-right: auto;
+    font-family: 'Pricedown Bl', sans-serif;
+    font-size: 75px;
+    color: #000;
+}
+
+
+.blockquote2 {
+    font-family: 'Rage Italic', sans-serif;
+    font-size: 1.4em;
+    color: #fd95e0;
+    border-left: 3px solid #fd95e0;
+    margin: 20px 40px;
+    padding: 15px 30px;
+    /* background-color: rgba(253, 149, 224, 0.1); */
+    background-color: #000;
+    text-shadow: 0 0 5px #fd95e0;
+    position: relative;
+    quotes: "“" "”";
+    border-radius: 10px 50px;
+    text-align: center;
+}
+
+.card-text {
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 1;
+    color: #000;
+    padding: 5px 0 0 0;
+    padding-bottom: 10px;
+}
+
+.card-body {
+background-color: white;
+}
+
+.card-title {
+    font-family: 'Pricedown Bl', sans-serif;
+    color: #fd95e0;
+    text-shadow: 0 0 5px #000, 0 0 5px #000;
+    font-size: 30px ;
 }

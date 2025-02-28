@@ -394,3 +394,7 @@ a {
     flex: 1;
     margin-right: 20px;
 }
+footer li {
+    scroll-margin-top : 140px;
+
+}

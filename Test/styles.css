@@ -393,3 +393,10 @@ footer li {
     padding-top: 20px;
     gap: 50px;
 }
+
+/* Bold link text */
+a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}

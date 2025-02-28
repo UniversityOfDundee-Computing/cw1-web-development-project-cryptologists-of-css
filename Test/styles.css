@@ -56,29 +56,24 @@ a,li {
 h1, h2, h3 {
     font-family: 'Pricedown Bl', sans-serif;
     color: #fd95e0;
+    text-decoration: underline;
+    text-shadow: 0 0 5px #000000, 0 0 10px #fd95e0, -5px 5px 0 #000,  -5px 5px 0 #fd95e0;
 }
 
 h1 {
     font-size: 3em;
     margin-bottom: 20px;
-
-    text-shadow: 0 0 5px #000000, 0 0 10px #fd95e0, -5px 5px 0 #000,  -5px 5px 0 #fd95e0;
-    
+    text-decoration: none;
 }
 
 h2 {
-
     font-size: 2em;
     margin-bottom: 15px;
-    text-shadow: 0 0 5px #000000, 0 0 10px #fd95e0, -5px 5px 0 #000,  -5px 5px 0 #fd95e0;
     padding: 10px 0 0 0;
-    text-decoration: underline;
-    text-shadow: 0 0 10px #000, 0 0 10px #000;
 }
 
 h3 {
     font-size: 1.5em;
-    text-shadow: 0 0 5px #000000, 0 0 10px #fd95e0, -5px 5px 0 #000,  -5px 5px 0 #fd95e0;
     padding: 10px 0 0 0;
 }
 

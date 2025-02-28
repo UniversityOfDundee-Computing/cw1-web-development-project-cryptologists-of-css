@@ -398,6 +398,24 @@ footer li {
     gap: 50px;
 }
 
+/* more visible link text */
+main a {
+    color: #ffffff;
+    text-decoration: none;
+    text-shadow: 1px 1px rgb(38, 156, 160);
+    font-weight: bolder;
+}
+main a:hover {
+    color: #11bce7;
+    text-decoration: none;
+    text-shadow: 1px 1px rgb(38, 156, 160);
+    font-weight: bolder;
+}
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bolder;
+}
 
 /* luyen */
 .left-content {
@@ -416,11 +434,4 @@ blockquote .citation {
     text-align: right;
     margin-top: 10px; 
     text-shadow: inherit;
-}
-
-/* Bold link text */
-p a {
-    color: #ffffff;
-    text-decoration: none;
-    font-weight: bold;
 }

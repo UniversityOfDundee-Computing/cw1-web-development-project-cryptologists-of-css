@@ -70,7 +70,7 @@ h2 {
 
 h3 {
     font-size: 1.5em;
-    text-shadow: 0 0 5px #fd95e0, 0 0 5px #fd95e0;
+    text-shadow: 0 0 5px #000000, 0 0 10px #fd95e0, -5px 5px 0 #000,  -5px 5px 0 #fd95e0;
     padding: 10px 0 0 0;
 }
 

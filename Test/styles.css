@@ -146,7 +146,8 @@ img.float-right {
     left: 50%;
     transform: translateX(-50%);
     width: 100vw;
-    height: 110%;
+    height: auto; /* Changed from fixed 110% to auto */
+    max-height: 100vh;
     z-index: 9998;  
 
     margin-bottom: 10px;
@@ -157,8 +158,9 @@ img.float-right {
 
 .banner-container img {
     width: 100%;
-    height: 100%;
-
+    height: auto; /* Changed from 100% to auto */
+    object-fit: contain; /* Changed from cover to contain */
+    max-height: 95vh;
     object-fit: cover;
 }
 
@@ -249,20 +251,20 @@ sup:hover {
 
 /* Blockquotes */
 blockquote {
-    font-family: 'Rage Italic', sans-serif;
-    font-size: 1.7em;
+    font-family: 'Pricedown Bl', sans-serif;
+    font-size: 1.3em;
     color: #fd95e0;
     border: 3px solid #fd95e0;
     /* margin: 20px 40px; */
     padding: 15px 30px;
-    background-color: #198345cb;
+    background-color: #69afffa2;
     text-shadow: 
         -2px 2px 2px rgba(0, 0, 0, 0.7), 
         0 0 10px #fd95e0,                  
         0 0 20px #000000;               
     box-shadow: 0 0 30px rgba(253, 149, 224, 0.2);
     position: relative;
-    quotes: """ """;
+    quotes: """" """";
     transition: all 0.3s ease;
 }
 
@@ -392,4 +394,13 @@ blockquote:hover {
 footer li {
     scroll-margin-top : 140px;
 
+}
+
+blockquote .citation {
+    font-family: 'Rage Italic', sans-serif; 
+    font-size: 1.4em; 
+    display: block; 
+    text-align: right;
+    margin-top: 10px; 
+    text-shadow: inherit;
 }

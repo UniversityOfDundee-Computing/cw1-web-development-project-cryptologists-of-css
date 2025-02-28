@@ -313,9 +313,88 @@ blockquote:hover {
     flex-direction: column;
     justify-content: center;
     transition: all 0.3s ease;
-
 }
 
+/* luyen */
+a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* luyen */
+.right-image-box {
+    flex: 1;
+    display: block;
+   
+}
+
+/* luyen */
+.image-box {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0 0 0;
+    gap: 10px;
+}
+
+/* luyen */
+.image-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* luyen */
+.image-item img {
+    width: 70%;
+    margin: 0;
+}
+
+/* luyen */
+.caption {
+    font-size: 0.9em;
+    text-align: center;
+    margin: 0 0 0 0;
+    padding-top: 0;
+}
+
+/* luyen */
+.group-caption {
+    font-size: 1em;
+    text-align: justify;
+    margin-top: 10px;
+    padding-top: 0;
+}
+
+/* luyen */
+.image-container-1 {
+    position: relative;
+    float: right;
+    width: 12%;
+    margin-left: 20px;
+    padding-top: 30px;
+}
+
+/* luyen */
+.image-container-1 img {
+    width: 100%;
+    display: block;
+}
+
+/* luyen */
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+/* luyen */
+.left-content {
+    flex: 1;
+    margin-right: 20px;
+}
 footer li {
     scroll-margin-top : 140px;
+
 }

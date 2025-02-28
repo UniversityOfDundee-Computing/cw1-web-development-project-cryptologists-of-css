@@ -244,6 +244,10 @@ a:hover {
     text-decoration: underline;
 }
 
-#footnote-15-return {
+/* #footnote-15-return {
     scroll-margin-top: 50vh;
+} */
+
+[id^="footnote-"][id$="-return"] {
+    scroll-margin-top: 100vh;
 }

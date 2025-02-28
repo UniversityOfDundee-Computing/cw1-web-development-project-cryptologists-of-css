@@ -1,35 +1,80 @@
+/* Font imports */
 @import url('https://fonts.cdnfonts.com/css/pricedown');
 @import url('https://fonts.cdnfonts.com/css/rage-italic');
 
+/* Base page styling */
 body {
     min-height: 100vh;
     background-image: url('background.jpg');
     background-repeat: repeat;
     background-size: auto;
     background-position: top left;
-    margin: 0;
+    margin: 60px;
     padding: 15px;
     position: relative;
+    cursor: url('cursor.cur'), auto;
 }
 
 .container {
     padding: 70px;
 }
 
+.border-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('border.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    pointer-events: none;
+    z-index: 9999;
+}
+
+/* Typography */
 p {
     font-family: sans-serif;
     font-size: 18px;
     line-height: 1.5;
     color: #ffffff;
     padding: 30px 0 0 0;
-    text-shadow: 0 0 5px #fd95e0, 0 0 5px #fd95e0;
+    text-shadow: 0 0 5px #000000, 0 0 10px #fd95e0, -1px 1px 2px #fd95e0,  -1.5px 1px 2px #fd95e0;
 }
 
 a {
     color: #ffffff;
 }
 
-/* Button and navigation fonts */
+/* Headings */
+h1, h2, h3 {
+    font-family: 'Pricedown Bl', sans-serif;
+    color: #fd95e0;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-shadow: 0 0 5px #000000, 0 0 10px #fd95e0, -5px 5px 0 #000,  -5px 5px 0 #fd95e0;
+    
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    text-shadow: 0 0 5px #000000, 0 0 10px #fd95e0, -5px 5px 0 #000,  -5px 5px 0 #fd95e0;
+    padding: 10px 0 0 0;
+    text-decoration: underline;
+}
+
+h3 {
+    font-size: 1.5em;
+    text-shadow: 0 0 5px #fd95e0, 0 0 5px #fd95e0;
+    padding: 10px 0 0 0;
+}
+
+/* Navigation */
 .btn, .navbar-brand, .nav-link {
     font-family: 'Pricedown Bl', sans-serif;
     letter-spacing: 1.5px;
@@ -70,46 +115,32 @@ a {
     margin-right: 20px;
 }
 
-.border-overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background-image: url('border.png');
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-position: center;
-    pointer-events: none;
-    z-index: 9999;
+/* Images */
+img.float-left {
+    float: left;
+    margin-right: 20px;
+    max-width: 100%;
 }
-/* Heading fonts */
-h1, h2 {
-    font-family: 'Pricedown Bl', sans-serif;
-    color: #ffffff;
+
+img.float-right {
+    float: right;
+    margin-left: 50px;
+    max-width: 100%;
 }
-h1 {
-    font-size: 3em;
-    margin-bottom: 20px;
-    text-shadow: 0 0 10px #fd95e0, 0 0 10px #fd95e0;
-}
-h2 {
-    font-size: 2em;
-    margin-bottom: 15px;
-    text-shadow: 0 0 5px #fd95e0, 0 0 5px #fd95e0;
-    padding: 10px 0 0 0;
-    text-decoration: underline;
-}
+
+/* Image with hover table */
 .image-container {
     position: relative;
     float: right;
     width: 14%;
     margin-left: 20px;
 }
+
 .image-container img {
     width: 100%;
     display: block;
 }
+
 .hover-table {
     display: none;
     position: absolute;
@@ -122,14 +153,17 @@ h2 {
     color: #ffffff;
     z-index: 9000;
 }
+
 .image-container:hover .hover-table {
     display: block;
 }
+
 .hover-table table {
     width: 100%;
     border-collapse: collapse;
     margin: 0;
 }
+
 .hover-table th,
 .hover-table td {
     padding-left: 50px;
@@ -138,29 +172,57 @@ h2 {
     border: 1px solid hwb(0 100% 0% / 0.422);
     text-shadow: 0 0 5px #fd95e0, 0 0 5px #fd95e0;
 }
+
 .hover-table th {
     font-family: 'Pricedown Bl', sans-serif;
 }
+
+/* Superscript */
 sup {
     font-size: 0.8em;
     vertical-align: super;
     color: #1c76fe;
 }
+
 sup:hover {
     text-decoration: underline;
     text-decoration-color: #fd95e0;
     cursor: pointer;
 }
 
-
-img.float-left {
-    float: left;
-    margin-right: 20px;
-    max-width: 100%;
+/* Blockquotes */
+blockquote {
+    font-family: 'Rage Italic', sans-serif;
+    font-size: 1.4em;
+    color: #fd95e0;
+    border-left: 3px solid #fd95e0;
+    margin: 20px 40px;
+    padding: 15px 30px;
+    background-color: rgba(253, 149, 224, 0.1);
+    text-shadow: 0 0 5px #000000, 0 0 5px #000000;
+    position: relative;
+    quotes: """ """;
 }
 
-img.float-right {
-    float: right;
-    margin-left: 50px;
-    max-width: 100%;
+blockquote::before,
+blockquote::after {
+    font-size: 2em;
+    position: absolute;
+}
+
+blockquote::before {
+    content: open-quote;
+    left: -15px;
+    top: -10px;
+}
+
+blockquote::after {
+    content: close-quote;
+    right: -15px;
+    bottom: -15px;
+}
+
+blockquote:hover {
+    border-left-color: #fff;
+    transition: 0.3s;
 }

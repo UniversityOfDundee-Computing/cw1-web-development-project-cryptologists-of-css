@@ -295,3 +295,10 @@ p {
     width: 100%;
     display: block;
 }
+
+.video-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    gap: 50px;
+}

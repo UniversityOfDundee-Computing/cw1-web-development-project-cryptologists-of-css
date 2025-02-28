@@ -36,24 +36,39 @@
 
     /* Banner and cover image adjustments */
     .banner-container {
-        position: relative !important;
-        top: 0 !important;
-        margin-bottom: 20px;
+        position: relative;
+        left: 50%;
+        right: 50%;
+        margin-left: -50vw;
+        margin-right: -50vw;
+        width: 100vw;
+        height: 100vh;
+        z-index: 9998;
+        overflow: hidden;
     }
-
+    
     .image-container {
-        position: relative !important;
-        width: 50% !important;
-        margin: 20px auto !important;
-        margin-top: 100vh !important;
+        position: absolute;
+        top: 50vw;
+        right: 5%;
+        z-index: 9999;
+        width: 20%;
+        transition: 0.3s;
     }
-
     .hover-table {
-        position: relative !important;
-        width: 100% !important;
-        right: 0 !important;
-        margin-top: 10px;
+        display: none;
+        position: absolute;
+        top: 0;
+        right: calc(100% + 10px);
+        left: auto;
+        /* margin-top: 5vw; */
+        background-color: hsla(315, 100%, 2%, 0.9);
+        border: 1px solid #ccc;
+        box-shadow: 0 0 5px #fd95e0;
+        color: #ffffff;
+        z-index: 10005;
     }
+    
 
     /* Typography adjustments */
     h1 {
@@ -82,6 +97,7 @@
 
     .images-wrapper {
         min-height: auto !important;
+        margin-top: -30px; /* Pull content up */
     }
 
     .video-container {

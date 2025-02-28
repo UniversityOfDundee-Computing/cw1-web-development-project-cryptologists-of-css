@@ -17,9 +17,13 @@ body {
 }
 
 .container {
+    position: relative;
+    z-index: 9999;
+    /* margin-top: 100vh; Push content below banner */
     padding: 70px;
     padding-top: 10px;
 }
+
 
 .border-overlay {
     position: fixed;
@@ -134,44 +138,36 @@ img.float-right {
 .images-wrapper {
     position: relative;
     width: 100%;
-    min-height: 650px; 
-
-
+    height: 100vh; /* Set height to viewport height to contain within section one */
+    overflow: hidden; /* Prevent spillover */
 }
 
 
 .banner-container {
-    position: absolute; 
-    top: 0%;
+    position: relative;
     left: 50%;
-    transform: translateX(-50%);
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
     width: 100vw;
-    height: auto; /* Changed from fixed 110% to auto */
-    max-height: 100vh;
-    z-index: 9998;  
-
-    margin-bottom: 10px;
-    box-shadow: 0 0 10px #fd95e0;
-
-
+    height: 100vh;
+    z-index: 9998;
+    overflow: hidden;
 }
 
 .banner-container img {
     width: 100%;
-    height: auto; /* Changed from 100% to auto */
-    object-fit: contain; /* Changed from cover to contain */
-    max-height: 95vh;
+    height: 100%;
     object-fit: cover;
 }
-
 /* Cover image styling */
 .image-container {
     position: absolute;
-    padding-top: 10vw;
-    margin-left: 60vw;
-    z-index:9999 ; 
+    top: 10vw;
+    right: 10%;
+    z-index: 9999;
     width: 20%;
-    
+    transition: 0.3s;
 }
 
 .image-container:hover{
@@ -189,7 +185,7 @@ img.float-right {
     top: 0;
     right: calc(100% + 10px);
     left: auto;
-    margin-top: 5vw;
+    /* margin-top: 5vw; */
     background-color: hsla(315, 100%, 2%, 0.9);
     border: 1px solid #ccc;
     box-shadow: 0 0 5px #fd95e0;

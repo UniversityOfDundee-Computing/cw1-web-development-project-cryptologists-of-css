@@ -416,9 +416,10 @@ blockquote .citation {
     text-align: right;
     margin-top: 10px; 
     text-shadow: inherit;
+}
 
 /* Bold link text */
-body a {
+p a {
     color: #ffffff;
     text-decoration: none;
     font-weight: bold;

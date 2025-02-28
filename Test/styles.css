@@ -318,15 +318,30 @@ blockquote:hover {
 }
 
 
+footer li {
+    scroll-margin-top : 170px;
 
-/* luyen */
+}
+
+/* Multiple images in a row */
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.left-content {
+    flex: 1;
+    margin-right: 20px;
+}
+
+
 .right-image-box {
     flex: 1;
     display: block;
    
 }
 
-/* luyen */
 .image-box {
     display: flex;
     justify-content: space-between;
@@ -334,7 +349,6 @@ blockquote:hover {
     gap: 10px;
 }
 
-/* luyen */
 .image-item {
     display: flex;
     flex-direction: column;
@@ -342,13 +356,11 @@ blockquote:hover {
     text-align: center;
 }
 
-/* luyen */
 .image-item img {
     width: 70%;
     margin: 0;
 }
 
-/* luyen */
 .caption {
     font-size: 0.9em;
     text-align: center;
@@ -356,7 +368,6 @@ blockquote:hover {
     padding-top: 0;
 }
 
-/* luyen */
 .group-caption {
     font-size: 1em;
     text-align: justify;
@@ -364,7 +375,8 @@ blockquote:hover {
     padding-top: 0;
 }
 
-/* luyen */
+/* Image */
+
 .image-container-1 {
     position: relative;
     float: right;
@@ -373,18 +385,19 @@ blockquote:hover {
     padding-top: 30px;
 }
 
-/* luyen */
 .image-container-1 img {
     width: 100%;
     display: block;
 }
 
-/* luyen */
-.wrapper {
+/* Multiple videos in a row */
+.video-container {
     display: flex;
     justify-content: space-between;
-    align-items: stretch;
+    padding-top: 20px;
+    gap: 50px;
 }
+
 
 /* luyen */
 .left-content {
@@ -403,4 +416,10 @@ blockquote .citation {
     text-align: right;
     margin-top: 10px; 
     text-shadow: inherit;
+
+/* Bold link text */
+body a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
 }

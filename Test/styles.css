@@ -393,3 +393,22 @@ footer li {
     padding-top: 20px;
     gap: 50px;
 }
+
+/* more visible link text */
+main a {
+    color: #ffffff;
+    text-decoration: none;
+    text-shadow: 1px 1px rgb(38, 156, 160);
+    font-weight: bolder;
+}
+main a:hover {
+    color: #11bce7;
+    text-decoration: none;
+    text-shadow: 1px 1px rgb(38, 156, 160);
+    font-weight: bolder;
+}
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bolder;
+}

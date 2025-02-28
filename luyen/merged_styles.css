@@ -233,6 +233,7 @@ p {
     text-align: justify;
 }
 
+/* Multiple images in a row */
 .wrapper {
     display: flex;
     justify-content: space-between;
@@ -283,6 +284,8 @@ p {
     padding-top: 0;
 }
 
+/* Image */
+
 .image-container-1 {
     position: relative;
     float: right;
@@ -296,6 +299,7 @@ p {
     display: block;
 }
 
+/* Multiple videos in a row */
 .video-container {
     display: flex;
     justify-content: space-between;

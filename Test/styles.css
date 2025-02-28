@@ -173,5 +173,5 @@ img.float-right {
 /* Scroll offset for footer links.
 This ensures the in-text links to references will have an appropriate offset to account for the unusual shape of our page. */
 footer li {
-    scroll-margin-top : 140px;
+    scroll-margin-top : 170px;
 }

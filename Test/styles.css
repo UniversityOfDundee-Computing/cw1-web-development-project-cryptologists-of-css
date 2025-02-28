@@ -365,7 +365,7 @@ footer li {
     font-size: 0.9em;
     text-align: center;
     margin: 0 0 0 0;
-    padding-top: 0;
+    padding-top: 10px;
 }
 
 .group-caption {
@@ -434,4 +434,11 @@ blockquote .citation {
     text-align: right;
     margin-top: 10px; 
     text-shadow: inherit;
+}
+
+.image-container-1:hover img {
+    transform: scale(1.1);
+}
+.image-item:hover img {
+    transform: scale(1.1);
 }

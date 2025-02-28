@@ -1,0 +1,191 @@
+/* Mobile-specific styles */
+@media only screen and (max-width: 768px) {
+    /* Adjust base layout */
+    body {
+        margin: 15px !important;
+        padding: 5px !important;
+        padding-top: 80px !important;
+        background-size: cover;
+    }
+
+    .container {
+        padding: 15px !important;
+    }
+
+    /* Navigation adjustments */
+    .navbar-brand {
+        font-size: 2em !important;
+        padding-left: 15px !important;
+        transform: rotate(0deg) !important;
+    }
+
+    .navbar-collapse {
+        background: rgba(0, 0, 0, 0.9) !important;
+        padding: 20px;
+        margin-top: 15px;
+        border: 2px solid #fd95e0 !important;
+        box-shadow: 0 0 15px #fd95e0 !important;
+    }
+    
+    .nav-link {
+        margin: 10px 0 !important;
+        font-size: 1.4em !important;
+    }
+
+
+
+    /* Banner and cover image adjustments */
+    .banner-container {
+        position: relative;
+        left: 50%;
+        right: 50%;
+        margin-left: -50vw;
+        margin-right: -50vw;
+        width: 100vw;
+        height: 100vh;
+        z-index: 9998;
+        overflow: hidden;
+    }
+    
+    .image-container {
+        position: absolute;
+        top: 50vw;
+        right: 5%;
+        z-index: 9999;
+        width: 20%;
+        transition: 0.3s;
+    }
+    .hover-table {
+        display: none;
+        position: absolute;
+        top: 0;
+        right: calc(100% + 10px);
+        left: auto;
+        /* margin-top: 5vw; */
+        background-color: hsla(315, 100%, 2%, 0.9);
+        border: 1px solid #ccc;
+        box-shadow: 0 0 5px #fd95e0;
+        color: #ffffff;
+        z-index: 10005;
+    }
+    
+
+    /* Typography adjustments */
+    h1 {
+        font-size: 2em !important;
+    }
+
+    h2 {
+        font-size: 1.5em !important;
+    }
+
+    h3 {
+        font-size: 1.2em !important;
+    }
+
+    p {
+        font-size: 16px !important;
+        text-shadow: 0 0 3px #000000, 0 0 5px #fd95e0 !important;
+    }
+
+    /* Image and video adjustments */
+    .float-left, .float-right {
+        float: none !important;
+        margin: 10px auto !important;
+        display: block;
+    }
+
+    .images-wrapper {
+        min-height: auto !important;
+        margin-top: -30px; /* Pull content up */
+    }
+
+    .video-container {
+        padding-bottom: 56.25%; /* 16:9 aspect ratio */
+        height: 0;
+        position: relative;
+    }
+
+    .video-container iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+    /* Blockquote adjustments */
+    blockquote {
+        margin: 10px 0 !important;
+        padding: 10px !important;
+        font-size: 1em !important;
+    }
+
+    blockquote p {
+        font-size: 1.2em !important;
+    }
+
+    /* Table adjustments */
+    .hover-table th,
+    .hover-table td {
+        padding: 5px 10px !important;
+        font-size: 0.9em !important;
+    }
+
+    /* Layout adjustments */
+    .wrapper {
+        flex-direction: column;
+    }
+
+    .left-content {
+        margin-right: 0 !important;
+    }
+
+    .image-box {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .image-item img {
+        width: 100% !important;
+    }
+
+    /* Utility adjustments */
+    .snap-section {
+        scroll-snap-align: none !important;
+        min-height: auto !important;
+        padding: 30px 0 !important;
+    }
+
+    #section1, #section2, #section3 {
+        padding: 20px 0 !important;
+    }
+
+    .border-overlay {
+        padding: 15px; /* Creates safe area */
+        box-sizing: border-box;
+    }
+}
+
+/* Additional adjustments for very small screens */
+@media only screen and (max-width: 480px) {
+    .navbar-brand {
+        font-size: 1.5em !important;
+    }
+
+    .nav-link {
+        font-size: 1em !important;
+    }
+
+    .hover-table {
+        font-size: 0.8em !important;
+    }
+
+    blockquote {
+        font-size: 0.9em !important;
+    }
+
+    .image-container {
+        width: 70% !important;
+    }
+}

@@ -1,5 +1,10 @@
 /* Mobile-specific styles */
 @media only screen and (max-width: 768px) {
+
+        .border-overlay {
+        display: none !important;
+    }
+
     /* Base layout adjustments */
     body {
         margin: 15px !important;
@@ -164,9 +169,6 @@
         padding: 20px 10px !important; /* Added horizontal padding */
     }
 
-    .border-overlay {
-        display: none !important;
-    }
 }
 
 /* Very small screens adjustments */

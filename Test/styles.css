@@ -419,7 +419,7 @@ blockquote .citation {
 }
 
 /* Bold link text */
-body a {
+p a {
     color: #ffffff;
     text-decoration: none;
     font-weight: bold;
